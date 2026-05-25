@@ -16,7 +16,10 @@ connectDB();
 // MIDDLEWARES
 app.use(cookieParser());
 app.use(cors({
-  origin: "http://localhost:5173", // frontend URL (Vite)
+    origin: [
+      "http://localhost:5173",
+      "https://blanchedalmond-yak-387163.hostingersite.com",
+    ],// frontend URL (Vite)
   credentials: true
 }));
 app.use(express.json());
