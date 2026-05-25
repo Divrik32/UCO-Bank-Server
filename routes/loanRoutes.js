@@ -19,7 +19,7 @@ const {
   getTotalTransactionDetails,
   getTotalEmiPaid,
   getAvailableBalance
-} = require("../loanControllers/loanController.js");
+} = require("../loanControllers/LoanController.js");
 
 // loan interest routes
 router.get("/interest-rate", getLoanInterest);
