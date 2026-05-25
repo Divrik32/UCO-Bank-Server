@@ -1,5 +1,5 @@
 const InterestRate = require("../models/InterestRate.js");
-const ThriftFundEntry = require("../models/thriftFundEntry.js");
+const ThriftFundEntry = require("../models/ThriftFundEntry.js");
 const ThriftFundWithdrawal = require("../models/ThriftFundWithdrawal.js");
 const PersonalInformation = require("../models/PersonalInformation.js");
 
