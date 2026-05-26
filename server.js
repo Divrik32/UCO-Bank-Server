@@ -18,7 +18,7 @@ app.use(cookieParser());
 app.use(cors({
     origin: [
       "http://localhost:5173",
-      "https://lightgray-cobra-451284.hostingersite.com",
+      "https://bsucbocooperative.in",
     ],// frontend URL (Vite)
   credentials: true
 }));
