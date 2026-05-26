@@ -18,7 +18,7 @@ app.use(cookieParser());
 app.use(cors({
     origin: [
       "http://localhost:5173",
-      "https://blanchedalmond-yak-387163.hostingersite.com",
+      "https://lightgray-cobra-451284.hostingersite.com",
     ],// frontend URL (Vite)
   credentials: true
 }));
